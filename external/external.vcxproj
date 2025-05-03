@@ -22,7 +22,7 @@
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{1bf6da9c-2838-4428-beac-69b931e46c74}</ProjectGuid>
-    <RootNamespace>hybrid</RootNamespace>
+    <RootNamespace>Athena Development</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
