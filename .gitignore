@@ -33,3 +33,4 @@
 # build directories
 **/x64
 **/x86
+**/.vs
