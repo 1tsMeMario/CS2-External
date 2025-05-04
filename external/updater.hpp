@@ -2,8 +2,6 @@
 #include <algorithm>
 #include "web.hpp"
 
-std::string uRL;
-
 inline void closeWeb(URLSession session)
 {
     session.CloseSession();
@@ -37,7 +35,7 @@ inline std::vector<std::string> extractLines(const std::vector<std::string>& lin
 
 uintptr_t getAddress(URLSession session, const std::string& addrName, int url)
 {
-    uRL = xorstr_("https://raw.githubusercontent.com/a2x/cs2-dumper/refs/heads/main/output");
+    std::string uRL = xorstr_("https://raw.githubusercontent.com/a2x/cs2-dumper/refs/heads/main/output");
 
     if (url == 1)
         uRL += xorstr_("/offsets.hpp");
